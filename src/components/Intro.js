@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Intro extends Component {
   render() {
@@ -7,9 +8,9 @@ class Intro extends Component {
         <h4 style={styles.greyText}>
             {this.props.content}
         </h4>
-        <a href="#" className="btn buttonAction" >
+        <Link to="/" className="btn buttonAction" >
             Pelajari Detail Program
-        </a>
+        </Link>
       </div>
     );
   }

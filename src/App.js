@@ -11,7 +11,7 @@ class App extends Component {
       <Router>
         <div>
           <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <Link className="navbar-brand" to="/">Codepolitan</Link>
+            <Link className="navbar-brand" to="/">DevSchool</Link>
             <div className="navbar-nav">
               <Link className="nav-item nav-link" to="/">Home</Link>
               <Link className="nav-item nav-link" to="/premium">Premium</Link>

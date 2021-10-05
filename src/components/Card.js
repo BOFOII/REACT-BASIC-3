@@ -8,9 +8,9 @@ class Card extends Component {
         <div className="card text-center">
             <img src={this.props.imageUrl} className="card-img-top" alt="" />
             <div className="card-body">
-                <h5 class="card-title">{this.props.title}</h5>
+                <h5 className="card-title">{this.props.title}</h5>
                 <p>{this.props.subtitle}</p>
-                <Link href="#" className="btn buttonAction">Mulai Belajar</Link>
+                <Link to="#" className="btn buttonAction">Mulai Belajar</Link>
             </div>
         </div>
       </div>

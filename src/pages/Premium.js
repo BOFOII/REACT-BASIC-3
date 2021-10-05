@@ -35,8 +35,8 @@ class Premium extends Component {
 
                 <div className="col-md-6" style={styles.box450border} >
                     {
-                        features.map(feature => (
-                            <div>
+                        features.map((feature, index) => (
+                            <div key={ index }>
                                 <h5><strong>{feature.title}</strong></h5>
                                 <p>{feature.desc}</p>
                             </div>
@@ -47,8 +47,8 @@ class Premium extends Component {
 
             <div className="row" style={{ marginBottom: 50 }}>
                 {
-                    cards.map(card => 
-                        <Card 
+                    cards.map((card, index) => 
+                        <Card key={ index }
                             imageUrl={card.imageUrl} 
                             title={card.title} 
                         />
