@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Premium from './pages/Premium.js';
+import DevSchool from './pages/DevSchool';
 
 class App extends Component {
   render() {
@@ -19,7 +20,7 @@ class App extends Component {
           </nav>
           <Route path="/" exact component={ Home }></Route>
           <Route path="/premium" component={ Premium }></Route>
-          <Route path="/devschool" component={ () => <h4>Devschool</h4> }></Route>
+          <Route path="/devschool" component={ DevSchool }></Route>
         </div>
       </Router>
     );
